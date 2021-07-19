@@ -1,0 +1,116 @@
+﻿/*------------------------
+SELECT TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, ORDINAL_POSITION
+FROM INFORMATION_SCHEMA.COLUMNS
+ORDER BY TABLE_NAME, ORDINAL_POSITION;
+------------------------*/
+TABLE_SCHEMA                   TABLE_NAME                     COLUMN_NAME                    ORDINAL_POSITION
+------------------------------ ------------------------------ ------------------------------ ----------------
+dbo                            btfl_010b                      "loopIteration"                1
+dbo                            btfl_010b                      "time"                         2
+dbo                            btfl_010b                      "axisP 0 "                     3
+dbo                            btfl_010b                      "axisP 1 "                     4
+dbo                            btfl_010b                      "axisP 2 "                     5
+dbo                            btfl_010b                      "axisI 0 "                     6
+dbo                            btfl_010b                      "axisI 1 "                     7
+dbo                            btfl_010b                      "axisI 2 "                     8
+dbo                            btfl_010b                      "axisD 0 "                     9
+dbo                            btfl_010b                      "axisD 1 "                     10
+dbo                            btfl_010b                      "axisF 0 "                     11
+dbo                            btfl_010b                      "axisF 1 "                     12
+dbo                            btfl_010b                      "axisF 2 "                     13
+dbo                            btfl_010b                      "rcCommand 0 "                 14
+dbo                            btfl_010b                      "rcCommand 1 "                 15
+dbo                            btfl_010b                      "rcCommand 2 "                 16
+dbo                            btfl_010b                      "rcCommand 3 "                 17
+dbo                            btfl_010b                      "setpoint 0 "                  18
+dbo                            btfl_010b                      "setpoint 1 "                  19
+dbo                            btfl_010b                      "setpoint 2 "                  20
+dbo                            btfl_010b                      "setpoint 3 "                  21
+dbo                            btfl_010b                      "vbatLatest"                   22
+dbo                            btfl_010b                      "amperageLatest"               23
+dbo                            btfl_010b                      "rssi"                         24
+dbo                            btfl_010b                      "gyroADC 0 "                   25
+dbo                            btfl_010b                      "gyroADC 1 "                   26
+dbo                            btfl_010b                      "gyroADC 2 "                   27
+dbo                            btfl_010b                      "accSmooth 0 "                 28
+dbo                            btfl_010b                      "accSmooth 1 "                 29
+dbo                            btfl_010b                      "accSmooth 2 "                 30
+dbo                            btfl_010b                      "motor 0 "                     31
+dbo                            btfl_010b                      "motor 1 "                     32
+dbo                            btfl_010b                      "motor 2 "                     33
+dbo                            btfl_010b                      "motor 3 "                     34
+dbo                            btfl_010b                      "flightModeFlags"              35
+dbo                            btfl_010b                      "stateFlags"                   36
+dbo                            btfl_010b                      "failsafePhase"                37
+dbo                            btfl_010b                      "rxSignalReceived"             38
+dbo                            btfl_010b                      "rxFlightChannelsValid"        39
+dbo                            btfl_010b                      "heading 0 "                   40
+dbo                            btfl_010b                      "heading 1 "                   41
+dbo                            btfl_010b                      "heading 2 "                   42
+dbo                            btfl_010b                      "axisSum 0 "                   43
+dbo                            btfl_010b                      "axisSum 1 "                   44
+dbo                            btfl_010b                      "axisSum 2 "                   45
+dbo                            btfl_010b                      "rcCommands 0 "                46
+dbo                            btfl_010b                      "rcCommands 1 "                47
+dbo                            btfl_010b                      "rcCommands 2 "                48
+dbo                            btfl_010b                      "rcCommands 3 "                49
+dbo                            btfl_010b                      "axisError 0 "                 50
+dbo                            btfl_010b                      "axisError 1 "                 51
+dbo                            btfl_010b                      "axisError 2 "                 52
+dbo                            btfl_012b                      "loopIteration"                1
+dbo                            btfl_012b                      "time"                         2
+dbo                            btfl_012b                      "axisP 0 "                     3
+dbo                            btfl_012b                      "axisP 1 "                     4
+dbo                            btfl_012b                      "axisP 2 "                     5
+dbo                            btfl_012b                      "axisI 0 "                     6
+dbo                            btfl_012b                      "axisI 1 "                     7
+dbo                            btfl_012b                      "axisI 2 "                     8
+dbo                            btfl_012b                      "axisD 0 "                     9
+dbo                            btfl_012b                      "axisD 1 "                     10
+dbo                            btfl_012b                      "axisF 0 "                     11
+dbo                            btfl_012b                      "axisF 1 "                     12
+dbo                            btfl_012b                      "axisF 2 "                     13
+dbo                            btfl_012b                      "rcCommand 0 "                 14
+dbo                            btfl_012b                      "rcCommand 1 "                 15
+dbo                            btfl_012b                      "rcCommand 2 "                 16
+dbo                            btfl_012b                      "rcCommand 3 "                 17
+dbo                            btfl_012b                      "setpoint 0 "                  18
+dbo                            btfl_012b                      "setpoint 1 "                  19
+dbo                            btfl_012b                      "setpoint 2 "                  20
+dbo                            btfl_012b                      "setpoint 3 "                  21
+dbo                            btfl_012b                      "vbatLatest"                   22
+dbo                            btfl_012b                      "amperageLatest"               23
+dbo                            btfl_012b                      "rssi"                         24
+dbo                            btfl_012b                      "gyroADC 0 "                   25
+dbo                            btfl_012b                      "gyroADC 1 "                   26
+dbo                            btfl_012b                      "gyroADC 2 "                   27
+dbo                            btfl_012b                      "accSmooth 0 "                 28
+dbo                            btfl_012b                      "accSmooth 1 "                 29
+dbo                            btfl_012b                      "accSmooth 2 "                 30
+dbo                            btfl_012b                      "motor 0 "                     31
+dbo                            btfl_012b                      "motor 1 "                     32
+dbo                            btfl_012b                      "motor 2 "                     33
+dbo                            btfl_012b                      "motor 3 "                     34
+dbo                            btfl_012b                      "flightModeFlags"              35
+dbo                            btfl_012b                      "stateFlags"                   36
+dbo                            btfl_012b                      "failsafePhase"                37
+dbo                            btfl_012b                      "rxSignalReceived"             38
+dbo                            btfl_012b                      "rxFlightChannelsValid"        39
+dbo                            btfl_012b                      "heading 0 "                   40
+dbo                            btfl_012b                      "heading 1 "                   41
+dbo                            btfl_012b                      "heading 2 "                   42
+dbo                            btfl_012b                      "axisSum 0 "                   43
+dbo                            btfl_012b                      "axisSum 1 "                   44
+dbo                            btfl_012b                      "axisSum 2 "                   45
+dbo                            btfl_012b                      "rcCommands 0 "                46
+dbo                            btfl_012b                      "rcCommands 1 "                47
+dbo                            btfl_012b                      "rcCommands 2 "                48
+dbo                            btfl_012b                      "rcCommands 3 "                49
+dbo                            btfl_012b                      "axisError 0 "                 50
+dbo                            btfl_012b                      "axisError 1 "                 51
+dbo                            btfl_012b                      "axisError 2 "                 52
+
+(104 rows affected)
+
+
+Completion time: 2021-07-19T21:30:28.6797671+10:00

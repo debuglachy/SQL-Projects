@@ -1,0 +1,19 @@
+﻿/*------------------------
+SELECT
+	(maxstamp-minstamp) AS timearmedms,
+	(maxstamp-minstamp)/POWER(10,6) AS timearmedsecs
+	FROM (
+		SELECT
+			CAST(MAX(timestamp) AS float) AS maxstamp,
+			CAST(MIN(timestamp) AS float) AS minstamp
+		FROM [log_58_2021-4-5-08-47-42_vehicle_control_mode_0] WHERE flag_armed = 1) AS sub;
+
+------------------------*/
+timearmedms            timearmedsecs
+---------------------- ----------------------
+495488641              495.488641
+
+(1 row affected)
+
+
+Completion time: 2021-08-29T18:50:47.4695215+10:00

@@ -1,0 +1,18 @@
+﻿/*------------------------
+SELECT
+	(maxstamp-minstamp) AS timearmedms,
+	(maxstamp-minstamp)/POWER(10,6) AS timearmedsecs
+	FROM (
+		SELECT
+			CAST(MAX(["time"]) AS float) AS maxstamp,
+			CAST(MIN(["time"]) AS float) AS minstamp
+		FROM [btfl_012b] WHERE ["flightModeFlags"] = '3') AS sub; 
+------------------------*/
+timearmedms            timearmedsecs
+---------------------- ----------------------
+11833149               11.833149
+
+(1 row affected)
+
+
+Completion time: 2021-08-29T19:06:04.4786625+10:00
